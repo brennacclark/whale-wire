@@ -140,7 +140,7 @@ PRODUCTION BOTS ONLY, skip if you have an OSKR/dev-unlocked bot as the setup.sh 
 - If it loads for a little bit then shows back up again, click on it again
 Enter the desired settings (can be changed later) then click "SAVE SETTINGS".
 
-### Once setup shows "Vector setup is complete!", you are done! Your bot should now be fully authenticated and set up!
+### Your bot should now be fully authenticated and set up!
 
 ![Vector Wire-Prod Setup Complete](https://github.com/brennacclark/whale-wire/blob/main/assets/vectorSetupComplete.png)
 
