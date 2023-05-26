@@ -47,11 +47,10 @@ cat ~/.ssh/id_rsa.pub
 
 * Verify your private id_rsa can be accessed. </br>
     _Update ENTRY_POINT ssh key path for non-default values_
-* Verify you are using your preferred STT. 
+* Verify you are using your preferred STT. </br>
     _Update ENTRY_POINT with new STT name_
-* If you are not using a production bot, remove the last command from ENTRY POINT
-    _Remove `service dbus start && service avahi-daemon restart` from ENTRY_POINT_
-
+* If you are not using a production bot, remove the last command from ENTRY POINT </br>
+    _Update ENTRY_POINT and remove `service dbus start && service avahi-daemon start`_
 
 # Build the whale-wire image and deploy
 
