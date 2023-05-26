@@ -2,14 +2,14 @@
 
 ## A Dockerized Wire-Pod Environment
 
-Our beloved, [Wire-Prod](https://github.com/kercre123/wire-pod), now bundled onto a Debian Docker Image. 
+Our beloved, [Wire-Pod](https://github.com/kercre123/wire-pod), now bundled onto a Debian Docker Image. 
 
 Designed for deployment on OS X (Apple Chip M1). 
 
 - [Prerequistes](#prerequisites)
 - [Verify your Installation Settings](#verify-your-installation-settings)
 - [Build the whale-wire image and deploy](#build-the-whale-wire-image-and-deploy)
-- [Connect to Wire-Prod](#connect-to-wire-prod)
+- [Connect to Wire-Pod](#connect-to-wire-pod)
 - [Reset Vector to Factory Settings](#reset-vector-to-factory-settings)
 - [Authenticate Vector on whale-wire-pod](#authenticate-vector-on-whale-wire-pod)
 
@@ -69,7 +69,7 @@ docker run -it -h escapepod --name escapepod -p 8080:8080 whale-wire:myTag
 
 ## Whale-wire will then run the application
 ### 1. (Production Bots Only) Start the dbus start && service avahi-daemon
-### 2. Run Wire-Prod Chipper Setup
+### 2. Run Wire-Pod Chipper Setup
 ### 3. Start Chipper
 
 ### It should show a log similar to the following.
@@ -86,7 +86,7 @@ Starting server at port 80 for connCheck
 Configuration page: http://192.168.1.221:8080
 ```
 
-# Connect to wire-prod
+# Connect to wire-pod
 
 ### With a device on the same network as wire-pod, open a browser and head to the configuration page you just deployed http://localhost:8080. In that page, follow the instructions. Wire-pod should then be set up!
 
@@ -142,7 +142,7 @@ Enter the desired settings (can be changed later) then click "SAVE SETTINGS".
 
 ### Your bot should now be fully authenticated and set up!
 
-![Vector Wire-Prod Setup Complete](https://github.com/brennacclark/whale-wire/blob/main/assets/vectorSetupComplete.png)
+![Vector Wire-Pod Setup Complete](https://github.com/brennacclark/whale-wire/blob/main/assets/vectorSetupComplete.png)
 
 
 </br>
