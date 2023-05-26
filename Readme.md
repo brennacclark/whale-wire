@@ -11,7 +11,7 @@ Designed for deployment on OS X (Apple Chip M1).
 - [Build the whale-wire image and deploy](#build-the-whale-wire-image-and-deploy)
 - [Connect to Wire-Prod](#connect-to-wire-prod)
 - [Reset Vector to Factory Settings](#reset-vector-to-factory-settings)
-- [Authenticate Vector on whale-wire-prod](#authenticate-vector-on-whale-wire-prod)
+- [Authenticate Vector on whale-wire-pod](#authenticate-vector-on-whale-wire-pod)
 
 # Prerequisites
 
@@ -127,7 +127,7 @@ service dbus start && service avahi-daemon restart
 1. Lift the lift up then down again
 
 
-# Authenticate Vector on whale-wire-prod 
+# Authenticate Vector on whale-wire-pod 
 
 PRODUCTION BOTS ONLY, skip if you have an OSKR/dev-unlocked bot as the setup.sh script will handle it: It is recommended to clear your bot's user data. This is not required, and you can still authenticate with wire-pod without it (as long as the last server you have authenticated the bot with was the DDL/Anki production stack), but it may cause unexpected behavior.
 
