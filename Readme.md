@@ -88,7 +88,9 @@ Configuration page: http://192.168.1.221:8080
 
 # Connect to wire-prod
 
-### With a device on the same network as wire-pod, open a browser and head to the configuration page. In the case of the above log, http://192.168.1.221:8080. In that page, follow the instructions. Wire-pod should then be set up!
+### With a device on the same network as wire-pod, open a browser and head to the configuration page you just deployed http://localhost:8080. In that page, follow the instructions. Wire-pod should then be set up!
+
+![Wire-Pod Interface Header](https://github.com/brennacclark/whale-wire/blob/main/assets/wireProdConfigHeader.png)
 
 ### Above logs will continue
 ``` sh
@@ -129,15 +131,18 @@ service dbus start && service avahi-daemon restart
 
 PRODUCTION BOTS ONLY, skip if you have an OSKR/dev-unlocked bot as the setup.sh script will handle it: It is recommended to clear your bot's user data. This is not required, and you can still authenticate with wire-pod without it (as long as the last server you have authenticated the bot with was the DDL/Anki production stack), but it may cause unexpected behavior.
 
-- Refresh the vector-wirepod-setup page and follow the instructions
+- Refresh the [vector-wirepod-setup page](https://keriganc.com/vector-wirepod-setup/html/main.html) and follow the instructions
 
 - You should end up at a screen with an "ACTIVATE" button. Click on it.
+
+![Activate Button on Vector Setup](https://github.com/brennacclark/whale-wire/blob/main/assets/wireProdActivate.png)
 
 - If it loads for a little bit then shows back up again, click on it again
 Enter the desired settings (can be changed later) then click "SAVE SETTINGS".
 
 ### Once setup shows "Vector setup is complete!", you are done! Your bot should now be fully authenticated and set up!
 
+![Vector Wire-Prod Setup Complete](https://github.com/brennacclark/whale-wire/blob/main/assets/vectorSetupComplete.png)
 
 
 </br>
